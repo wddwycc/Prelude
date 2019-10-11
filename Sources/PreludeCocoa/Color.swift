@@ -8,10 +8,10 @@
 
 #if os(macOS)
 import Cocoa
-typealias Color = NSColor
+public typealias Color = NSColor
 #else
 import UIKit
-typealias Color = UIColor
+public typealias Color = UIColor
 #endif
 
 public extension Color {
